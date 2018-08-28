@@ -1,0 +1,15 @@
+table, th, td{
+  border: 1px solid black;
+  border-collapse:collapse;
+  text-align:left;
+}
+table{
+  font-family: arial, sans-serif;
+  width: 100%
+}
+tr:nth-child(even) td:nth-child(odd){
+  background-color:black; color:white
+}
+tr:nth-child(odd) td:nth-child(even){
+  background-color:black; color:white
+}
